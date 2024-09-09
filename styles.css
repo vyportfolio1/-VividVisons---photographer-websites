@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.montserrat{
+    font-family: "Montserrat", sans-serif;
+}
+
+.sen{
+    font-family: "Sen", sans-serif;
+}
+
+.playfare{
+    font-family: "Playfair Display", serif;
+}
+
+.poppins{
+    font-family: "Poppins", sans-serif;
+}
+
+.lightg{
+    color: #7A7A7A;
+}
