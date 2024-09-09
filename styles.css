@@ -16,10 +16,20 @@
     font-family: "Playfair Display", serif;
 }
 
+.playfare-it{
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+}
+
 .poppins{
     font-family: "Poppins", sans-serif;
+    font-weight: 100;
 }
 
 .lightg{
     color: #7A7A7A;
+}
+
+.brown-c{
+    color: #AE441D;
 }
