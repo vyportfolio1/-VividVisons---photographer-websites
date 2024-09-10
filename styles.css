@@ -42,6 +42,34 @@
     background: #202020;
 }
 
-.hero-img-f, .hero-img-s, .des, .des-two {
-    transition: opacity 0.5s ease;
+ 
+.hero-img-f, .hero-img-s {
+    filter: blur(10px); /* Initial blur */
+    transform: translateY(100px); /* Start lower, off-screen */
+    opacity: 0.3; /* Start faded out */
+    transition: filter 1.5s ease, opacity 1.5s ease, transform 1.5s ease; /* Smooth transition for blur, opacity, and movement */
 }
+
+.fully-visible {
+    filter: none; /* Remove blur */
+    opacity: 1; /* Fully visible */
+    transform: translateY(0); /* Bring to the middle */
+}
+
+.fist-part {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1.5s ease, transform 1.5s ease;
+}
+
+.nav a, .choose, .des, .des-two {
+    opacity: 0;
+    transform: translateY(30px); /* Start with slight downward movement */
+}
+
+.photo-t, .visual {
+    opacity: 0;
+    transform: translateY(50px); /* Start with slight downward movement */
+}
+
+ 
