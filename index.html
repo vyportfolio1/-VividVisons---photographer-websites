@@ -22,7 +22,7 @@
 </head>
 <body>
 
-    <div class="back absolute -z-10 inset-x-0 top-0 left-1/2 transform -translate-x-1/2 ">
+    <div class="back absolute -z-50 inset-x-0 top-0 left-1/2 transform -translate-x-1/2 w-[360px] overflow-hidden md:w-[762px] lg:w-[1024px]">
         <svg width="1106" height="1069" viewBox="0 0 1106 1069" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M1 -13V1069" stroke="#DADADA"/>
             <path d="M139 -13V1069" stroke="#DADADA"/>
@@ -70,15 +70,15 @@
     </div>
 
 
-    <div class="hero-section px-[24px] relative mt-28 flex flex-col items-center md:mt-48 md:items-center md:px-[70px] md:mx-auto lg:flex-row-reverse lg:items-end lg:mt-48 lg:justify-center">
+    <div class="hero-section px-[24px] relative mt-28 flex flex-col items-center md:mt-40 md:items-center md:px-[70px] md:mx-auto lg:flex-row-reverse lg:items-end lg:mt-40 lg:justify-center">
         <div class="second-part flex flex-col items-center relative">
-            <h1 class="photo-t absolute text-[40px] playfare uppercase text-center w-[311px] top-1 -mt-32 z-10 md:text-[80px] md:w-[583px] md:leading-tight md:-mt-48 lg:w-[856px] lg:text-[100px] lg:-mt-52 lg:leading-none">
+            <h1 class="photo-t absolute text-[40px] playfare uppercase text-center w-[311px] top-1 -mt-32 z-10 md:text-[80px] md:w-[583px] md:leading-tight md:-mt-48 lg:w-[720px] lg:text-[90px] lg:-mt-52 lg:leading-none">
                 <span class="playfare-it capitalize">Elite</span> PhotOGRAPHY 
                 <span class="playfare-it capitalize text-[40px] text-white md:text-[80px]">&</span> 
                 <span class="text-white"> Art Studio</span>
             </h1>
-            <img class="hero-img-f w-[338px] object-cover relative z-0 md:w-[628px] lg:w-[880px]" src="img/hero1.jpg" alt="woman">
-            <p class="visual absolute uppercase text-[48px] poppins brown-c bottom-0 z-10 md:text-[80px] md:w-[409px] md:ml-[480px] md:-bottom-24 md:leading-tight">
+            <img class="hero-img-f w-[338px] object-cover relative z-0 md:w-[628px] lg:w-[880px] lg:-mt-3" src="img/hero1.jpg" alt="woman">
+            <p class="visual absolute uppercase text-[48px] poppins brown-c bottom-0 z-10 md:text-[80px] md:w-[409px] md:ml-[580px] md:-bottom-24 md:leading-tight lg:-bottom-20">
                 Visual Poetry
             </p>
         </div>
@@ -93,42 +93,49 @@
 <!-- 
     hero text section bottom -->
 
-    <div class="hero-text-bottom mt-28 px-[24px] w-307px flex flex-wrap items-center justify-end">
+    <div class="hero-text-bottom mt-16 px-[24px] w-307px flex flex-wrap items-center justify-end md:flex-row-reverse md:justify-center md:gap-14 md:mt-10 lg:gap-48">
 
-        <div class="choose flex gap-4 items-center w-[250px]">
-            <svg width="23" height="42" viewBox="0 0 23 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_986_6703)">
-                <g clip-path="url(#clip1_986_6703)">
-                <path d="M23 0L0 21L23 42" stroke="#202020" stroke-miterlimit="10"/>
-                </g>
-                </g>
-                <defs>
-                <clipPath id="clip0_986_6703">
-                <rect width="23" height="42" fill="white"/>
-                </clipPath>
-                <clipPath id="clip1_986_6703">
-                <rect width="23" height="42" fill="white"/>
-                </clipPath>
-                </defs>
-                </svg>
-                
-                <h2 class="montserrat text-[24px]">5/5</h2>
+        <div class="choose flex gap-14 items-center w-[350px] -mt-16 md:-mt-0 md:w-[116px]">
 
-                <svg width="25" height="44" viewBox="0 0 25 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0_986_6710)">
-                    <g clip-path="url(#clip1_986_6710)">
-                    <path d="M1 1L24 22L1 43" stroke="#202020" stroke-miterlimit="10"/>
+            <div class="left-button">
+                <svg width="23" height="42" viewBox="0 0 23 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_986_6703)">
+                    <g clip-path="url(#clip1_986_6703)">
+                    <path d="M23 0L0 21L23 42" stroke="#202020" stroke-miterlimit="10"/>
                     </g>
                     </g>
                     <defs>
-                    <clipPath id="clip0_986_6710">
-                    <rect width="25" height="44" fill="white"/>
+                    <clipPath id="clip0_986_6703">
+                    <rect width="23" height="42" fill="white"/>
                     </clipPath>
-                    <clipPath id="clip1_986_6710">
-                    <rect width="25" height="44" fill="white"/>
+                    <clipPath id="clip1_986_6703">
+                    <rect width="23" height="42" fill="white"/>
                     </clipPath>
                     </defs>
                     </svg>
+            </div>
+ 
+                
+                <h2 class="montserrat text-[15px]">5/5</h2>
+
+                <div class="right-button">
+                    <svg width="25" height="44" viewBox="0 0 25 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_986_6710)">
+                        <g clip-path="url(#clip1_986_6710)">
+                        <path d="M1 1L24 22L1 43" stroke="#202020" stroke-miterlimit="10"/>
+                        </g>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_986_6710">
+                        <rect width="25" height="44" fill="white"/>
+                        </clipPath>
+                        <clipPath id="clip1_986_6710">
+                        <rect width="25" height="44" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                </div>
+ 
                     
         </div>
 
@@ -147,29 +154,32 @@
     <!-- ABOUT US -->
 
     <div class="about-us mt-16 flex flex-col items-center">
-        <div class="px-[24px] about-section bg-bl pt-10 w-full">
-            <p class="text-[14px] montserrat text-white">ABOUT US</p>
+        <div class="px-[24px] about-section bg-bl pt-10 w-[100%] flex flex-col items-center md:w-[90%] md:items-start md:-ml-24 md:px-[70px] lg:items-center lg:pb-36">
+            <p class="text-[14px] montserrat text-white text-center lg:mr-[600px]">ABOUT US</p>
             <div class="ab flex justify-center relative z-10">
-                <h1 class="text-[48px] playfare text-white w-[292px] leading-tight md:text-[80px]">Beyond photographs, <span class="playfare-it">we create</span> exquisite <br>fine art</h1>
-                <img class="mt-72 w-[214px]  ml-36 object-cover absolute" src="img/abouus.jpg" alt="about">
+                <h1 class="text-[48px] playfare text-white w-[292px] leading-tight z-10 md:text-[80px] md:w-[444px] lg:text-[96px] lg:w-[720px]">Beyond photographs, <span class="playfare-it">we create</span> exquisite <br>fine art</h1>
+                <img class="mt-72 w-[214px]  ml-36 object-cover absolute md:ml-[520px] md:w-[308px] lg:ml-[720px] lg:mt-20 lg:w-[440px]" src="img/abouus.jpg" alt="about">
             </div>
-            <h1 class="Excepti text-[32px] text-white playfare mt-40 relative z-10">Exceptional Photography and Art Studio Crafting Timeless Visual Masterpieces</h1>
-            <p class="studio text-[14px] text-white sen mt-3 pb-10">At our studio, we specialize in capturing the essence of every moment with unparalleled artistry. Our team is dedicated to transforming each image into a timeless piece of art, ensuring that every detail reflects the highest standards of quality and creativity</p>
+            <div class="exel flex flex-col items-center">
+                <h1 class="Excepti text-[32px] text-white playfare mt-40 relative z-20 w-[274px] lg:w-[560px] lg:mt-12 lg:mr-48 lg:text-[46px] lg:leading-tight">Exceptional Photography and Art Studio Crafting Timeless Visual Masterpieces</h1>
+                <p class="studio text-[14px] text-white sen mt-3 pb-10 w-[314px] lg:w-[500px]">At our studio, we specialize in capturing the essence of every moment with unparalleled artistry. Our team is dedicated to transforming each image into a timeless piece of art, ensuring that every detail reflects the highest standards of quality and creativity</p>
+            </div>
+
         </div>
     </div>
 
     <!-- quate section -->
-    <div class="quate relative">
-        <img class="w-full object-cover h-[483px]" src="img/middl.jpg" alt="Photography">
-        <h1 class="absolute inset-0 flex items-center justify-center text-[24px] text-white playfare text-center bg-black/50 px-[24px]  ">
+    <div class="quate relative lg:flex justify-center lg:ml-[177px]">
+        <img class="w-full object-cover h-[483px] lg:w-[1440px] lg:h-[704px]" src="img/middl.jpg" alt="Photography">
+        <h1 class="absolute inset-0 flex items-center justify-center text-[24px] text-white playfare text-center px-[24px] w-[308px] left-1/2 transform -translate-x-1/2 md:text-[40px] md:w-[632px]">
             Graceful designs, expert craftsmanship, and meticulous detail, enhancing the visual appeal and professionalism of your brand
         </h1>
     </div>
 
     <!-- Viewpoints section -->
-     <div class="viewpoints">
-        <div class="viewsection bg-bl py-24">
-            <div class="line absolute">
+     <div class="viewpoints lg:flex flex-col lg:items-center">
+        <div class="viewsection bg-bl py-16 px-[24px] md:px-[70px] w-[95%] ml-5 md:w-[90%] md:ml-28 lg:w-[85%] lg:ml-[150px] lg:flex flex-col items-center">
+            <div class="line absolute w-[360px] overflow-hidden md:w-[762px] lg:w-[1024px]">
                 <svg width="1106" height="1410" viewBox="0 0 1106 1410" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 0V1410" stroke="#DADADA" stroke-opacity="0.5"/>
                     <path d="M139 0V1410" stroke="#DADADA" stroke-opacity="0.5"/>
@@ -183,15 +193,29 @@
                     </svg>
             </div>
 
+                <div class="testy flex flex-col items-end">
+                    <h1 class="playfare text-white text-[48px] leading-tight my-6 text-right w-[317px] lg:text-[96px] lg:w-[701px]"><span class="playfare-it">Viewpoints</span> SHARED <span class="playfare-it">by</span> OUR CLIENTS</h1>
+                    <p class="text-white text-[14px] uppercase text-right mb-8">Testimony</p>
+    
+                </div>
 
-                <h1 class="playfare text-white text-[48px]"><span class="playfare-it">Viewpoints</span> SHARED <span class="playfare-it">by</span> OUR CLIENTS</h1>
-                <p class="text-white text-[14px] uppercase">Testimony</p>
-
-                <div class="test-cards">
+                <div class="test-cards flex items-end gap-3">
                     <div class="fcard p-[20px] border border-white w-[300px]">
-                        <p class="text-white playfare text-[21px]">"Vivid Visions transformed our film's promotional images into breathtaking art. Their attention to detail and creativity exceeded all our expectations."</p>
+                        <p class="text-white playfare text-[21px] mb-6">"Vivid Visions transformed our film's promotional images into breathtaking art. Their attention to detail and creativity exceeded all our expectations."</p>
                         <p class="text-white montserrat text-[14px]">John Reynolds,</p>
                         <p class="lightg montserrat text-[14px]">Director at Silver Frame Productions</p>
+                    </div>
+
+                    <div class="fcard hidden p-[20px] border border-white w-[300px] md:block">
+                        <p class="text-white playfare text-[21px] mb-6">"Working with Vivid Visions was an absolute pleasure. Their photography captures the essence of every moment, delivering stunning results every single time."</p>
+                        <p class="text-white montserrat text-[14px]">Emily Parker,</p>
+                        <p class="lightg montserrat text-[14px]">Editor-in-Chief at Visionary Magazine</p>
+                    </div>
+
+                    <div class="fcard hidden p-[20px] border border-white w-[300px] lg:block">
+                        <p class="text-white playfare text-[21px] mb-6">"Vivid Visions’ work is nothing short of extraordinary. They bring out the beauty in every shot, turning simple photos into true masterpieces."</p>
+                        <p class="text-white montserrat text-[14px]">David Collins,</p>
+                        <p class="lightg montserrat text-[14px]">Creative Director at Aurora Films</p>
                     </div>
                 </div>
                 
@@ -199,18 +223,21 @@
      </div>
 
      <!-- Works -->
-     <p class="text-[14px] montserrat uppercase">Works</p>
-     <h1 class="text-[48px] playfare"><span class="playfare-it">These</span> PROJECTS have been <span class="playfare-it">SELECTED</span> to INSPIRE <span class="playfare-it">you</span></h1>
-
-     <h1 class="text-[38px] playfare">Some of our recent captures</h1>
-
-
-     <div class="grid grid-cols-3 grid-rows-6 gap-4">
-        <div class="col-span-2 row-span-2">
-            <img src="img/gal1.jpg" alt="image">
+      <div class="works px-[24px] flex flex-col items-center">
+        <p class="text-[14px] montserrat uppercase mt-12 mb-6 lg:mr-[900px]">Works</p>
+        <h1 class="text-[48px] playfare leading-tight w-[309px] md:text-[80px] md:w-[603px] lg:w-[904px] lg:mr-72"><span class="playfare-it">These</span> PROJECTS have been <span class="playfare-it">SELECTED</span> to INSPIRE <span class="playfare-it">you</span></h1>
+   
+        <h1 class="text-[38px] playfare mt-9 mb-6 ml-8 lg:mr-[670px]">Some of our recent captures</h1>
+   
+      </div>
+    
+<div class="galley lg:flex lg:justify-center">
+    <div class="flex flex-col px-[24px] items-center justify-center lg:grid grid-cols-3 grid-rows-6 gap-4 content-center">
+        <div class="col-span-2 row-span-2 ">
+            <img class="lg:h-[646px] lg:w-[912px] object-cover" src="img/gal1.jpg" alt="image">
         </div>
-        <div class="row-span-2 col-start-3">
-            <img src="img/gal2.jpg" alt="image">
+        <div class="row-span-2 col-start-3 ">
+            <img class="lg:h-[646px] lg:w-[448px] object-cover" src="img/gal2.jpg" alt="image">
         </div>
         <div class="row-start-3">
             <img src="img/gal3.jpg" alt="image">
@@ -238,39 +265,45 @@
         </div>
     </div>
 
+</div>
+
 
   <!-- CLIENTS -->
-     <div class="clent">
-        <p class="text-[14px] montserrat uppercase">Works</p>
-        <h1 class="text-[48px] playfare-it" >RELIED on by CLIENTS in various INDUSTRIES</h1>
+     <div class="clent mt-14 px-[24px] flex flex-col items-end md:px-[70px] lg:items-center lg:ml-96">
+        <p class="text-[14px] montserrat uppercase text-right w-[120px]">CLIENTS</p>
+        <h1 class="text-[48px] playfare-it leading-tight text-right w-[309px] md:text-[80px] md:w-[603px] lg:w-[830px]" >RELIED on by CLIENTS in various INDUSTRIES</h1>
      </div>
 
        <!-- footer secion -->
 
-       <div class="footer">
-        <h1 class="text-[48px] playfare"><span class="playfare-it">Join</span> us for collaboration</h1>
-        <button>BOOK A CALL</button>
+       <div class="foot lg:flex lg:justify-center">
+        <div class="footer mt-14 px-[24px] flex flex-col items-start md:px-[70px]">
+            <h1 class="text-[48px] playfare leading-tight w-[309px] md:text-[80px] md:w-[603px]"><span class="playfare-it">Join</span> us for collaboration</h1>
+            <button class="bg-bl text-white montserrat py-3 px-5 mt-4 font-bold">BOOK A CALL</button>
        </div>
 
-       <div class="footer-two">
-        <div class="service">
-            <p class="montserrat text-[14px] font-bold">SERVICES</p>
-            <a href="#"><p class="montserrat text-[14px]">VIDEOGRAPHY</p></a>
-            <a href="#"><p class="montserrat text-[14px]">EVENT PHOTOGRAPHY</p></a>
-            <a href="#"><p class="montserrat text-[14px]">PORTRAIT SESSIONS</p></a>
-            <a href="#"><p class="montserrat text-[14px] uppercase">Fashion Photo</p></a>
-        </div>
+                <div class="footer-two flex justify-center mt-24 md:justify-end md:mb-14">
+                    <div class="service flex flex-col gap-5 px-[3px]">
+                        <p class="montserrat text-[14px] font-bold">SERVICES</p>
+                        <a href="#"><p class="montserrat text-[14px]">VIDEOGRAPHY</p></a>
+                        <a href="#"><p class="montserrat text-[14px]">EVENT PHOTOGRAPHY</p></a>
+                        <a href="#"><p class="montserrat text-[14px]">PORTRAIT SESSIONS</p></a>
+                        <a href="#"><p class="montserrat text-[14px] uppercase">Fashion Photo</p></a>
+                    </div>
 
-        <div class="About_us">
-            <p class="montserrat text-[14px] font-bold uppercase">About us</p>
-            <a href="#"><p class="montserrat text-[14px]">WHAT YOU RECEIVE</p></a>
-            <a href="#"><p class="montserrat text-[14px]">TERMS & CONDITIONS</p></a>
-            <a href="#"><p class="montserrat text-[14px]">FAQs</p></a>
-            <a href="#"><p class="montserrat text-[14px] uppercase">PRIVACY POLICY</p></a>
-        </div>
+                    <div class="About_us flex flex-col gap-5 px-[3px]">
+                        <p class="montserrat text-[14px] font-bold uppercase">About us</p>
+                        <a href="#"><p class="montserrat text-[14px]">WHAT YOU RECEIVE</p></a>
+                        <a href="#"><p class="montserrat text-[14px]">TERMS & CONDITIONS</p></a>
+                        <a href="#"><p class="montserrat text-[14px]">FAQs</p></a>
+                        <a href="#"><p class="montserrat text-[14px] uppercase">PRIVACY POLICY</p></a>
+                    </div>
+                </div>
        </div>
 
-       <div class="social-icons">
+
+
+       <div class="social-icons flex justify-center gap-4 mt-7">
         <svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12.8327 16.7503L21.0502 12.0003L12.8327 7.25033V16.7503ZM31.136 4.35283C31.3418 5.09699 31.4843 6.09449 31.5793 7.36116C31.6902 8.62782 31.7377 9.72032 31.7377 10.6703L31.8327 12.0003C31.8327 15.4678 31.5793 18.017 31.136 19.6478C30.7402 21.0728 29.8218 21.9912 28.3968 22.387C27.6527 22.5928 26.291 22.7353 24.201 22.8303C22.1427 22.9412 20.2585 22.9887 18.5168 22.9887L15.9993 23.0837C9.36518 23.0837 5.23268 22.8303 3.60185 22.387C2.17685 21.9912 1.25852 21.0728 0.862682 19.6478C0.656849 18.9037 0.514349 17.9062 0.419349 16.6395C0.308516 15.3728 0.261016 14.2803 0.261016 13.3303L0.166016 12.0003C0.166016 8.53282 0.419349 5.98366 0.862682 4.35283C1.25852 2.92783 2.17685 2.00949 3.60185 1.61366C4.34602 1.40783 5.70768 1.26533 7.79768 1.17033C9.85602 1.05949 11.7402 1.01199 13.4818 1.01199L15.9993 0.916992C22.6335 0.916992 26.766 1.17033 28.3968 1.61366C29.8218 2.00949 30.7402 2.92783 31.136 4.35283Z" fill="black"/>
             </svg>
@@ -291,36 +324,7 @@
         <div class="w-full h-[0.5px] lightg-bg"></div>
         <p class=" text-[16px] text-center my-4 lightg">© 2024 Copyright by <a href="https://vyportfolio.com">vyportfolio.com</a></p>
       </div>
-      
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     
 </body>
 </html>
