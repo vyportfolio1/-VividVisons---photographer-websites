@@ -41,3 +41,7 @@
 .bg-bl{
     background: #202020;
 }
+
+.hero-img-f, .hero-img-s, .des, .des-two {
+    transition: opacity 0.5s ease;
+}

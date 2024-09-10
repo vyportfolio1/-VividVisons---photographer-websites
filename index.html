@@ -18,9 +18,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="styles.css">
-    <script src="custom.js"></script>
+    <script src="custome.js"></script>
 </head>
-<body>
+<body class="overflow-x-hidden">
 
     <div class="back absolute -z-50 inset-x-0 top-0 left-1/2 transform -translate-x-1/2 w-[360px] overflow-hidden md:w-[762px] lg:w-[1024px]">
         <svg width="1106" height="1069" viewBox="0 0 1106 1069" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -69,6 +69,7 @@
 
     </div>
 
+    <!-- hero photos -->
 
     <div class="hero-section px-[24px] relative mt-28 flex flex-col items-center md:mt-40 md:items-center md:px-[70px] md:mx-auto lg:flex-row-reverse lg:items-end lg:mt-40 lg:justify-center">
         <div class="second-part flex flex-col items-center relative">
@@ -97,7 +98,7 @@
 
         <div class="choose flex gap-14 items-center w-[350px] -mt-16 md:-mt-0 md:w-[116px]">
 
-            <div class="left-button">
+            <div class="left-button cursor-pointer">
                 <svg width="23" height="42" viewBox="0 0 23 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_986_6703)">
                     <g clip-path="url(#clip1_986_6703)">
@@ -118,7 +119,7 @@
                 
                 <h2 class="montserrat text-[15px]">5/5</h2>
 
-                <div class="right-button">
+                <div class="right-button cursor-pointer">
                     <svg width="25" height="44" viewBox="0 0 25 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_986_6710)">
                         <g clip-path="url(#clip1_986_6710)">
@@ -140,13 +141,13 @@
         </div>
 
 
-        <div class="f w-[84px] mt-10">
-            <p class="montserrat text-[14px] font-bold uppercase">London</p>
-            <p class="sen text-[14px]">14.09.2017</p>
+        <div class="des w-[84px] mt-10">
+            <p class="r montserrat text-[14px] font-bold uppercase">London</p>
+            <p class="v text-[14px]">14.09.2017</p>
         </div>
 
-        <div class="s sen w-[200px] lightg md:w-[300px]">
-            <p>A striking black-and-white portrait of a woman, her gaze intense, capturing raw emotion and timeless beauty</p>
+        <div class="des-two sen w-[200px] lightg md:w-[300px]">
+            <p class="d">A striking black-and-white portrait of a woman, her gaze intense, capturing raw emotion and timeless beauty</p>
         </div>
 
     </div>
@@ -225,14 +226,14 @@
      <!-- Works -->
       <div class="works px-[24px] flex flex-col items-center">
         <p class="text-[14px] montserrat uppercase mt-12 mb-6 lg:mr-[900px]">Works</p>
-        <h1 class="text-[48px] playfare leading-tight w-[309px] md:text-[80px] md:w-[603px] lg:w-[904px] lg:mr-72"><span class="playfare-it">These</span> PROJECTS have been <span class="playfare-it">SELECTED</span> to INSPIRE <span class="playfare-it">you</span></h1>
+        <h1 class="text-[48px] playfare leading-tight w-[309px] md:text-[80px] md:w-[603px] lg:w-[904px]"><span class="playfare-it">These</span> PROJECTS have been <span class="playfare-it">SELECTED</span> to INSPIRE <span class="playfare-it">you</span></h1>
    
         <h1 class="text-[38px] playfare mt-9 mb-6 ml-8 lg:mr-[670px]">Some of our recent captures</h1>
    
       </div>
     
-<div class="galley lg:flex lg:justify-center">
-    <div class="flex flex-col px-[24px] items-center justify-center lg:grid grid-cols-3 grid-rows-6 gap-4 content-center">
+<div class="galley lg:flex justify-center">
+    <div class="flex flex-col px-[24px] items-center justify-center lg:grid grid-cols-3 grid-rows-6 gap-4 lg:w-[1130px] ">
         <div class="col-span-2 row-span-2 ">
             <img class="lg:h-[646px] lg:w-[912px] object-cover" src="img/gal1.jpg" alt="image">
         </div>
@@ -269,7 +270,7 @@
 
 
   <!-- CLIENTS -->
-     <div class="clent mt-14 px-[24px] flex flex-col items-end md:px-[70px] lg:items-center lg:ml-96">
+     <div class="clent mt-14 px-[24px] flex flex-col items-end md:px-[70px] lg:items-center lg:ml-48">
         <p class="text-[14px] montserrat uppercase text-right w-[120px]">CLIENTS</p>
         <h1 class="text-[48px] playfare-it leading-tight text-right w-[309px] md:text-[80px] md:w-[603px] lg:w-[830px]" >RELIED on by CLIENTS in various INDUSTRIES</h1>
      </div>
