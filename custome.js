@@ -14,28 +14,28 @@ document.addEventListener('DOMContentLoaded', function () {
             heroImgS: "img/hero4.jpg",
             des: "Paris",
             date: "22.05.2018",
-            description: "A vibrant sunset illuminating the Paris skyline, capturing the essence of romance and history.",
+            description: "A black-and-white photo capturing a towering building beneath a dramatic, expansive sky",
         },
         {
             heroImgF: "img/hero5.jpg",
             heroImgS: "img/hero6.jpg",
-            des: "New York",
+            des: "Unknown",
             date: "10.11.2019",
-            description: "A bustling cityscape, showcasing the iconic skyline of New York City at dusk.",
+            description: "An elegant photo showcasing a vintage camera, beautifully contrasted against a sleek black backdrop",
         },
         {
             heroImgF: "img/hero7.jpg",
             heroImgS: "img/hero8.jpg",
-            des: "Tokyo",
+            des: "Unknown",
             date: "08.04.2020",
-            description: "A vibrant city street in Tokyo, with neon lights reflecting off the wet pavement.",
+            description: "A mesmerizing photo of the moon transitioning with the sun against a mysterious dark background",
         },
         {
             heroImgF: "img/hero9.jpg",
             heroImgS: "img/hero10.jpg",
             des: "Sydney",
             date: "15.01.2021",
-            description: "A beautiful sunrise over the Sydney Opera House, capturing the serenity of the early morning.",
+            description: "A black-and-white image of a man walking between towering buildings on a quiet street",
         }
     ];
 
