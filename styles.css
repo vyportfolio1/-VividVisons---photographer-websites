@@ -44,16 +44,16 @@
 
  
 .hero-img-f, .hero-img-s {
-    filter: blur(10px); /* Initial blur */
-    transform: translateY(100px); /* Start lower, off-screen */
-    opacity: 0.3; /* Start faded out */
-    transition: filter 1.5s ease, opacity 1.5s ease, transform 1.5s ease; /* Smooth transition for blur, opacity, and movement */
+    filter: blur(10px);  
+    transform: translateY(100px);  
+    opacity: 0.3;  
+    transition: filter 1.5s ease, opacity 1.5s ease, transform 1.5s ease;  
 }
 
 .fully-visible {
-    filter: none; /* Remove blur */
-    opacity: 1; /* Fully visible */
-    transform: translateY(0); /* Bring to the middle */
+    filter: none;  
+    opacity: 1;  
+    transform: translateY(0); 
 }
 
 .fist-part {
@@ -64,12 +64,12 @@
 
 .nav a, .choose, .des, .des-two {
     opacity: 0;
-    transform: translateY(30px); /* Start with slight downward movement */
+    transform: translateY(30px);  
 }
 
 .photo-t, .visual {
     opacity: 0;
-    transform: translateY(50px); /* Start with slight downward movement */
+    transform: translateY(50px);  
 }
 
  
