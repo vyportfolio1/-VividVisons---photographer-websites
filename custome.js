@@ -568,3 +568,453 @@ document.addEventListener("DOMContentLoaded", function () {
         );
     }
 });
+
+
+// about section anim
+
+document.addEventListener("DOMContentLoaded", function () {
+    gsap.registerPlugin(ScrollTrigger);
+
+    
+    const mainSection = document.querySelector(".mainm");
+
+    if (mainSection) {
+      
+        gsap.fromTo(".h-texts h1", 
+            { opacity: 0, y: 50 },  
+            {
+                scrollTrigger: {
+                    trigger: ".mainm",
+                    start: "top 80%",  
+                    once: true,  
+                },
+                opacity: 1,  
+                y: 0,  
+                duration: 1.5,  
+                ease: "power3.out",
+            }
+        );
+
+         
+        gsap.fromTo(".l-tests", 
+            { opacity: 0, y: 50 },
+            {
+                scrollTrigger: {
+                    trigger: ".mainm",
+                    start: "top 75%",
+                    once: true,
+                },
+                opacity: 1,
+                y: 0,
+                duration: 1.5,
+                ease: "power3.out",
+            }
+        );
+
+        // Image animations
+        gsap.fromTo(".image-sections img", 
+            { opacity: 0, y: 100 },  
+            {
+                scrollTrigger: {
+                    trigger: ".image-sections",
+                    start: "top 70%",
+                    once: true,
+                },
+                opacity: 1,
+                y: 0,
+                duration: 1.8,
+                ease: "power3.out",
+                stagger: 0.3,  
+            }
+        );
+
+         
+        gsap.fromTo(".insp", 
+            { opacity: 0, scale: 0.8 },  
+            {
+                scrollTrigger: {
+                    trigger: ".image-sections",
+                    start: "top 60%",
+                    once: true,
+                },
+                opacity: 1,
+                scale: 1,  
+                duration: 1.8,
+                ease: "power3.out",
+            }
+        );
+    }
+});
+
+
+// about us more
+
+document.addEventListener("DOMContentLoaded", function () {
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Animation for the ABOUT US text
+    gsap.fromTo(".about-uscs p", 
+        { opacity: 0, y: 50 },  
+        {
+            scrollTrigger: {
+                trigger: ".about-uscs",
+                start: "top 80%", 
+                once: true, // Ensures animation only happens once
+            },
+            opacity: 1,  
+            y: 0,  
+            duration: 1.5,
+            ease: "power3.out",
+        }
+    );
+
+    // Animation for the main heading
+    gsap.fromTo(".abcs h1", 
+        { opacity: 0, x: -100 },
+        {
+            scrollTrigger: {
+                trigger: ".about-uscs",
+                start: "top 70%",
+                once: true, // Animation only happens once
+            },
+            opacity: 1,
+            x: 0, 
+            duration: 1.8,
+            ease: "power2.out",
+        }
+    );
+
+    // Animation for the first image
+    gsap.fromTo(".imgcg", 
+        { opacity: 0, x: 100 },
+        {
+            scrollTrigger: {
+                trigger: ".about-uscs",
+                start: "top 60%",
+                once: true, // Animation only happens once
+            },
+            opacity: 1,
+            x: 0,
+            duration: 1.8,
+            ease: "power2.out",
+        }
+    );
+
+    // Animation for the second image (hidden in smaller screens)
+    gsap.fromTo(".imgcgg", 
+        { opacity: 0, scale: 0.8 },  
+        {
+            scrollTrigger: {
+                trigger: ".about-uscs",
+                start: "top 50%",
+                once: true, // Animation only happens once
+            },
+            opacity: 1,  
+            scale: 1,  
+            duration: 2,
+            ease: "power2.out",
+        }
+    );
+
+    // Animation for the Exceptional Photography text
+    gsap.fromTo(".Excepti", 
+        { opacity: 0, y: 80 },
+        {
+            scrollTrigger: {
+                trigger: ".about-uscs",
+                start: "top 50%",
+                once: true, // Animation only happens once
+            },
+            opacity: 1,
+            y: 0,
+            duration: 2,
+            ease: "power2.out",
+        }
+    );
+
+    // Animation for the paragraphs in the .studio class
+    gsap.fromTo(".studio", 
+        { opacity: 0, y: 80 },  
+        {
+            scrollTrigger: {
+                trigger: ".about-uscs",
+                start: "top 40%",
+                once: true, // Animation only happens once
+            },
+            opacity: 1,  
+            y: 0,  
+            duration: 2,
+            ease: "power2.out",
+            stagger: 0.3 // Stagger the animations for each paragraph
+        }
+    );
+});
+
+
+// services
+
+document.addEventListener("DOMContentLoaded", function () {
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Animation for the main services heading
+    gsap.fromTo(".d h1", 
+        { opacity: 0, y: 50 },
+        {
+            scrollTrigger: {
+                trigger: ".services-section-m",
+                start: "top 80%", 
+                once: true, // Ensures the animation happens only once
+            },
+            opacity: 1,  
+            y: 0,  
+            duration: 1.5,
+            ease: "power3.out",
+        }
+    );
+
+    // Animation for the first image
+    gsap.fromTo(".d img", 
+        { opacity: 0, x: 100 },
+        {
+            scrollTrigger: {
+                trigger: ".services-section-m",
+                start: "top 70%",
+                once: true, // Ensures the animation happens only once
+            },
+            opacity: 1,
+            x: 0, 
+            duration: 1.5,
+            ease: "power2.out",
+        }
+    );
+
+    // Animation for the videography section
+    gsap.fromTo(".video", 
+        { opacity: 0, y: 100 },
+        {
+            scrollTrigger: {
+                trigger: ".services-section-m",
+                start: "top 60%",
+                once: true, // Ensures the animation happens only once
+            },
+            opacity: 1,
+            y: 0,
+            duration: 1.8,
+            ease: "power2.out",
+        }
+    );
+
+    // Animation for the event photography section
+    gsap.fromTo(".vde", 
+        { opacity: 0, x: -100 },
+        {
+            scrollTrigger: {
+                trigger: ".services-section-m",
+                start: "top 50%",
+                once: true, // Ensures the animation happens only once
+            },
+            opacity: 1,
+            x: 0,
+            duration: 1.8,
+            ease: "power2.out",
+        }
+    );
+
+    // Animation for the portrait sessions section and Timeless Vision text
+    gsap.fromTo(".rose", 
+        { opacity: 0, y: 100 },
+        {
+            scrollTrigger: {
+                trigger: ".services-section-m",
+                start: "top 40%",
+                once: true, // Ensures the animation happens only once
+            },
+            opacity: 1,
+            y: 0,
+            duration: 2,
+            ease: "power2.out",
+        }
+    );
+
+    // Animation for the fashion photography section
+    gsap.fromTo(".vdew", 
+        { opacity: 0, x: -100 },
+        {
+            scrollTrigger: {
+                trigger: ".services-section-m",
+                start: "top 30%",
+                once: true, // Ensures the animation happens only once
+            },
+            opacity: 1,
+            x: 0,
+            duration: 1.8,
+            ease: "power2.out",
+        }
+    );
+
+    // Animation for the final image section
+    gsap.fromTo(".ser-imf", 
+        { opacity: 0, y: 100 },
+        {
+            scrollTrigger: {
+                trigger: ".services-section-m",
+                start: "top 20%",
+                once: true, // Ensures the animation happens only once
+            },
+            opacity: 1,
+            y: 0,
+            duration: 2,
+            ease: "power2.out",
+        }
+    );
+});
+
+// contacts
+
+document.addEventListener("DOMContentLoaded", function () {
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Animation for the contact heading
+    gsap.fromTo(".si", 
+        { opacity: 0, y: 50 }, 
+        {
+            scrollTrigger: {
+                trigger: ".x",
+                start: "top 80%", 
+                once: true, // Ensures the animation happens only once
+            },
+            opacity: 1, 
+            y: 0, 
+            duration: 1.5,
+            ease: "power3.out",
+        }
+    );
+
+    // Animation for the description text
+    gsap.fromTo(".bw", 
+        { opacity: 0, x: 100 },
+        {
+            scrollTrigger: {
+                trigger: ".x",
+                start: "top 70%",
+                once: true, // Ensures the animation happens only once
+            },
+            opacity: 1, 
+            x: 0, 
+            duration: 1.5,
+            ease: "power2.out",
+        }
+    );
+
+    // Animation for the "Head Office" section
+    gsap.fromTo(".txt-cv", 
+        { opacity: 0, y: 50 },
+        {
+            scrollTrigger: {
+                trigger: ".x",
+                start: "top 60%", 
+                once: true, // Ensures the animation happens only once
+            },
+            opacity: 1,
+            y: 0,
+            duration: 1.8,
+            ease: "power2.out",
+        }
+    );
+
+    // Animation for the office image
+    gsap.fromTo(".img-f", 
+        { opacity: 0, x: -100 },
+        {
+            scrollTrigger: {
+                trigger: ".x",
+                start: "top 50%", 
+                once: true, // Ensures the animation happens only once
+            },
+            opacity: 1,
+            x: 0,
+            duration: 1.8,
+            ease: "power2.out",
+        }
+    );
+});
+
+// send message
+
+document.addEventListener("DOMContentLoaded", function () {
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Animation for the form heading and description
+    gsap.fromTo(".l, .tr", 
+        { opacity: 0, y: 50 }, 
+        {
+            scrollTrigger: {
+                trigger: ".g", // The entire section
+                start: "top 80%", 
+                once: true, // Ensures animation runs only once
+            },
+            opacity: 1, 
+            y: 0, 
+            duration: 1.5,
+            ease: "power3.out",
+        }
+    );
+
+    // Animation for the form inputs (name, email, message)
+    gsap.fromTo(".last", 
+        { opacity: 0, x: -100 },
+        {
+            scrollTrigger: {
+                trigger: ".g",
+                start: "top 70%",
+                once: true, // Ensures animation runs only once
+            },
+            opacity: 1,
+            x: 0, 
+            duration: 1.5,
+            ease: "power2.out",
+            stagger: 0.3 // Stagger each input field
+        }
+    );
+
+    // Animation for the image on the right side
+    gsap.fromTo(".imgg img", 
+        { opacity: 0, x: 100 },
+        {
+            scrollTrigger: {
+                trigger: ".g",
+                start: "top 60%", 
+                once: true, // Ensures animation runs only once
+            },
+            opacity: 1,
+            x: 0,
+            duration: 1.8,
+            ease: "power2.out",
+        }
+    );
+});
+
+
+// scroll to top
+document.addEventListener("DOMContentLoaded", function () {
+    const scrollToTopBtn = document.getElementById("scrollToTop");
+
+    // Show the button when the user scrolls down 200px from the top of the page
+    window.addEventListener("scroll", function () {
+        if (window.scrollY > 200) {
+            scrollToTopBtn.classList.remove("hidden");
+            scrollToTopBtn.classList.add("opacity-100");
+        } else {
+            scrollToTopBtn.classList.add("hidden");
+            scrollToTopBtn.classList.remove("opacity-100");
+        }
+    });
+
+    // Smooth scroll to top when the button is clicked
+    scrollToTopBtn.addEventListener("click", function () {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+});
